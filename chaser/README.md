@@ -7,10 +7,10 @@ Three LEDs blink sequentially bi directionally, with a randomized delay to creat
 
 * Raspberry Pi Pico 2 W
 * 3 × LEDs
-* 1 × 220–330Ω resistors
+* 1 × 220–330Ω resistor
 * Breadboard
 
 The three LEDs are connected to three GPIO pins, can be any of your choice.
 
 ### Setup
-[chaser_setup](chaser.jpeg)
+![chaser](chaser.jpeg)
