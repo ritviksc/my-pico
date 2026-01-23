@@ -8,8 +8,8 @@ specs = str(os.uname()[4])
 state = "Ready"
 
 # Wi-Fi 
-ssid = "TPF_F1304_2.4G"
-password = "kiaora@2006"
+ssid = "WIFI"
+password = "PASSWD"
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
@@ -118,3 +118,4 @@ while True:
     except OSError as e:
         print("Connection error:", e)
         cl.close()
+
